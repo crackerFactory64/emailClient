@@ -1,0 +1,234 @@
+@media screen and (max-width: 500px){
+    
+    #homeTitle{
+        
+        margin-left: 150px !important;
+    }
+    
+    #emailTitle{
+        
+        margin-left: 90px !important;
+    }
+    
+}
+
+body{
+    
+    font-family: "Helvetica", sans-serif !important;
+    letter-spacing: 1.25px !important;
+    filter: brightness(125%);
+    
+}
+
+.app-topbar{
+    
+    background-color: #109534;
+  
+}
+
+.app-title{
+    
+    background-color: #109534;
+}
+
+.app-content{
+    
+    background-color:#D7DBD6;
+    
+}
+
+.app-section{
+    
+    border: 5px solid #109534;
+    border-radius: 0;
+    
+}
+
+#contactList{
+    
+    background-color: #D7DBD6;
+    border: none;
+    margin-top: 5px;
+    margin-bottom: 0;
+    overflow-y: scroll;
+    max-height: 300px;
+    
+}
+
+#contactList li {
+    
+    list-style-type: none;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 10px;
+    
+}
+
+#contactList a{
+
+    color: green;
+    text-decoration: none;
+    font-size: large;
+    border-bottom: 1px solid green;
+    padding: 5px;
+    
+}
+
+#contactList a:hover{
+    
+    font-weight: bold;
+    
+}
+
+#newEmail {
+    
+    margin-top: 0;
+    background-color: #109534;
+
+}
+
+#optionsButton {
+    
+    background-color: #109534;
+    
+}
+
+#options{
+    
+    display: none;
+    position: relative;
+    top: -100px;
+    z-index: 1;
+    height: auto;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    border-color: #109534;
+    
+}
+
+#close{
+    
+    float: right; 
+    font-size: 45px;
+    font-weight: bold;
+    margin-right: 15px;
+    
+}
+
+#colorPickerContainer{
+    text-align: center;
+    margin-bottom:0;
+ 
+}
+
+#colorPicker{
+    
+    margin-bottom: 15px;
+    
+}
+
+#colorPicker li{
+    margin-right: 22.5px;
+    display: inline;
+    padding: 0;
+    
+}
+
+.color{
+    
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    border: 2.5px solid transparent;
+    
+}
+
+#apply{
+    
+    background-color: #109534;
+    display: none;
+}
+
+#clear{
+    
+    background-color: #109534;
+
+    
+}
+
+#clearConfirm{
+    
+    margin-bottom: 0;
+    text-align: center;
+    border: black 5px solid;
+    z-index: 1;
+    display: none;
+    position: relative;
+    top: -270px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    border-color: black !important;
+
+    
+    
+}
+
+#yes{
+    
+    background-color: #109534;
+}
+
+#no{
+    
+    background-color: #109534;
+    
+}
+
+#send{
+        
+    background-color: #109534;
+    
+}
+
+.app-button p{
+    
+    color: white;    
+
+}
+
+.app-input{
+    
+    border-bottom-style: solid !important;
+    border-bottom-width: 1px !important;
+    border-radius: 0 !important;
+}
+.errorMessage{
+    
+    color: black;
+    font-weight: bold;
+    
+}
+
+#error{
+    
+    display: none;
+    padding: 10px;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    font-size: medium;
+    font-weight: bold;
+    letter-spacing: 2px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    position: relative;
+    top: -175px;
+    z-index: 1;
+
+}
+
+#ok{
+    
+    display: none;
+    background-color: black;
+    color: white;
+    
+}
+

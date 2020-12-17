@@ -1,0 +1,29 @@
+
+<html>
+    <head>
+    
+    </head>
+    
+    <body>
+    
+        <script type="text/javascript">
+        
+            var array = ["lee", "elaine", "steve"];
+            var retrievedArray = [];
+            
+            if (typeof(Storage) != "undefined"){
+                
+                localStorage.setItem("storedArray", JSON.stringify(array));
+                retrievedArray = JSON.parse(localStorage.getItem("storedArray"));            
+                alert(retrievedArray[0]);
+            
+            } else {
+                
+                alert("This browser does not suport local storage");
+                
+            }
+        
+        </script>
+        
+    </body>
+</html>
